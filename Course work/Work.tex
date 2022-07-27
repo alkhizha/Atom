@@ -1,0 +1,86 @@
+\documentclass[a4paper]{article}
+\usepackage[14pt]{extsizes}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{setspace,amsmath}
+\usepackage[unicode, pdftex]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue}
+\usepackage[left=20mm, top=15mm, right=15mm, bottom=15mm, nohead, footskip=10mm]{geometry}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+\hfill \break
+\normalsize{Міністерство освіти і науки України}\\
+\normalsize{Ліцей інформаційних технологій}\\
+\normalsize{Кафедра з програмування}\\
+\hfill\break
+\hfill \break
+\hfill \break
+\hfill \break
+\large{\textbf{Курсова робота}}\\
+\normalsize{\textbf{З дисципліни:}}\\
+\textbf{На тему: "Дослідження різних підходів до підготовки формул у вигляді "плоского" тексту за допомогою спеціалізованих програмних засобів."}\\
+\end{center}
+
+\vspace{\stretch{1}}
+
+\begin{flushright}
+\normalsize{Виконала:}\\
+\normalsize{учениця 10-В класу}\\
+\normalsize{Карбан Анна Романівна}\\
+\normalsize{Перевірив:}\\
+\normalsize{Хижа Олександр Леонідович}\\
+\end{flushright}
+
+
+\begin{center}
+\vspace{\stretch{1}}
+  Дніпро-2022 \pagebreak
+\end{center}
+ % выключаем отображение номера для этой страницы
+
+\newpage
+\begin{center}
+   \tableofcontents % Вывод содержания
+   \label{sec:}
+   \ref{sec:}
+\end{center}
+
+\newpage
+\section{Анотації}
+\newpage
+\section{Вступ}
+Детальніше тут\cite{LateX_Baldin}
+\newpage
+\section{Постановка задачі}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Заголовок}} \\
+\hline
+%\rule{0cm}{2cm} or \\[1cm] изменение высоты
+& 1 & 2 \\
+\cline{2-3}
+\raisebox{1.5ex}[0cm][0cm]{Что-то}
+& 10 & 20 \\
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\section{Основна частина}
+\newpage
+\section{Висновок}
+\newpage
+\section{Література}
+\begin{thebibliography}{9}
+\bibitem{LateX_Baldin}
+\href{ctex_Baldin.pdf}{Балдин Е.М. Компьютерная типография LaTeX. - Новосибирск : \\Идательство БХВ-Петербург. - 2008. -308с.}
+\end{thebibliography}
+\newpage
+\section{Додатки}
+
+\end{document}
