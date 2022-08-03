@@ -1,0 +1,8 @@
+\babel@toc {ukrainian}{}\relax 
+\contentsline {section}{\numberline {1}Анотації}{3}{section.1}%
+\contentsline {section}{\numberline {2}Вступ}{4}{section.2}%
+\contentsline {section}{\numberline {3}Постановка задачі}{5}{section.3}%
+\contentsline {section}{\numberline {4}Основна частина}{7}{section.4}%
+\contentsline {section}{\numberline {5}Висновок}{8}{section.5}%
+\contentsline {section}{\numberline {6}Література}{9}{section.6}%
+\contentsline {section}{\numberline {7}Додатки}{10}{section.7}%
